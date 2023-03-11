@@ -57,7 +57,7 @@ body{
     position: relative;
     border-radius: 0.25rem;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
-    background-color: mediumpurple;
+    background-color: grey;
     height: 150px;
     transform-style: preserve-3d;
     transition: 150ms;
