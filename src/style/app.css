@@ -1,5 +1,5 @@
 body{
-    background-color: #C8D0D2;
+    background-color: #c1c8e4;
     margin: 0;
     font-family: system-ui, sans-serif;
 }
@@ -11,9 +11,9 @@ body{
 .header{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #c1c8e4;
     padding: 0 1.5rem;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
 }
@@ -25,18 +25,21 @@ body{
 }
 
 .form-group > label{
-    color: #777;
-    font-size: 0.75rem;
+    color: #202020;
+    font-size: 1rem;
     margin-bottom: 0.25rem;
+
 }
 
 .btn{
-    background-color: hsl(200, 100%, 50%);
-    color: white;
+    background-color: #5680e9;
+    color: rgb(255, 255, 255);
     padding: 0.5em 1em;
     border-radius: 0.3rem;
     border: none;
     cursor: pointer;
+    font-family: system-ui, sans-serif;
+    font-weight: 500;
 }
 
 .btn:hover{
@@ -57,11 +60,12 @@ body{
     position: relative;
     border-radius: 0.25rem;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
-    background-color: grey;
+    background-color: #5680e9;
     height: 150px;
     transform-style: preserve-3d;
     transition: 150ms;
     cursor: pointer;
+    color: white;
     transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
 }
 
@@ -95,8 +99,9 @@ body{
 
 .flashcard-option{
     margin-top: 0.25rem;
-    color: #555;
+    color: #0a0421;
     font-size: 0.75rem;
+    font-weight: 500;
 }
 
 .flashcard-option:first-child{
